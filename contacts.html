@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bon Voyage | Туристическое агенство</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/contacts.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="section0">
+    <div class="section0-text">
+        <div class="logo-panel">
+            <div class="mobile-logo">
+                <h2>Турагенство</h2>
+                <h1>Bon<br>Voyage</h1>
+                <h1>Bon Voyage</h1>
+            </div>
+        </div>
+        <div class="phone-panel">
+            <div class="mobile-phone">
+                <h3>8 800 775 775 8</h3>
+                <a href="countris.html">Выбрать страну</a>
+            </div>
+        </div>
+        <div class="burger-panel">
+            <div class="mobile-burger" id="mobileBurger">
+                <span class="burg2"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <a href="#" class="popup-area"></a>
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close">
+                <i class="fa fa-times"></i>
+            </a>
+            <div class="popup-title">Вход</div>
+            <div class="popup-text">
+                <input type="email" placeholder="Ваш email">
+                <input type="password" placeholder="Ваш пароль">
+                <a href="#" class="login-link">Личный кабинет</a>
+                <div class="reg-link">
+                    <a href="#">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-header">
+<div class="header">
+    <div class="header_logo">
+        <a href="index.html">
+            <h2>турагенство</h2>
+            <h1>Bon Voyage</h1>
+        </a>
+    </div>
+    <div class="header_phone">
+        <h2>8 800 775 775 8</h2>
+        <a href="countris.html">Выбрать страну</a>
+    </div>
+    <div class="header_menu">
+        <div class="header_menu-items">
+            <div class="header_menu-item">
+                <a href="index.html">
+                    Главная
+                </a>
+            </div>
+            <div class="header_menu-item">
+                <a href="about.html">
+                    О нас
+                </a>
+            </div>
+            <div class="header_menu-item">
+                <a href="service.html">
+                    Сотрудники
+                </a>
+            </div>
+            <div class="header_menu-item">
+                <a href="covid.html">
+                    COVID-19
+                </a>
+            </div>
+            <div class="header_menu-item">
+                <a href="contacts.html" class="active">
+                    Контакты
+                </a>
+            </div>
+        </div>
+        <div class="header_menu-login">
+            <div class="header_login-item">
+                <a href="#popup">
+                    Вход
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="contacts-bg">
+    <h3>Контакты</h3>
+    <div class="contacts">
+        <img src="images/office-min.jpg" alt="">
+        <div class="contacts-item_left">
+            <div class="item-left_top">
+                <p class="contacts-address">
+                    Москва,<br>пр.Вернадского, 9<br>метро «Университет»
+                </p>
+                <p class="contacts-address">с 08:00 до 20:00</p>
+                <p class="contacts-phone">8 800 775 775 8</p>
+                <p class="contacts-email">bonvoyage@gmail.com</p>
+                <p class="contacts-social">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-vk"></i>
+                </p>
+            </div>
+            <div class="item-left_middle">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш email">
+                <textarea rows="2" placeholder="Ваше сообщение"></textarea>
+                <a href="#">Отправить</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div><i class="fa fa-facebook fa-footer"></i></div>
+    <div><i class="fa fa-rss fa-footer"></i></div>
+    <div><i class="fa fa-twitter fa-footer"></i></div>
+    <div><i class="fa fa-google-plus fa-footer"></i></div>
+</footer>
+<div class="copyright">
+    <a href="http://wd-asha.ru">&copy; wd-asha</a>
+</div>
+
+<div class="mobile-panel-menu" id="mobilePanelMenu">
+    <div class="mobile-menu">
+        <div class="mobile-menu-item">
+            <div class="mobile-burger-close" id="mobileBurgerClose">
+                <span class="burg-close3"></span>
+                <span class="burg-close4"></span>
+            </div>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="index.html" class="menu-item-active">Главная</a>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="about.html">О нас</a>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="service.html">Сотрудники</a>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="covid.html">COVID-19</a>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="mobile-menu-item">
+            <a href="#popup">Вход</a>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        let burger = $('#burger');
+        let mobileBurger = $('#mobileBurger');
+        let burgerClose = $('#burgerClose');
+        let mobileBurgerClose = $('#mobileBurgerClose');
+        let panelMenu = $('#panelMenu');
+        let mobilePanelMenu = $('#mobilePanelMenu');
+
+        function CloseBurger() {
+            panelMenu.css('opacity', 0);
+            overlayRight1.css('opacity', 0);
+            overlayRight2.css('opacity', 0);
+            overlayRight3.css('opacity', 0);
+            overlayRightPanelWhite.css('opacity', 0);
+            burgerClose.css('display', 'none');
+            burger.css('display', 'block');
+            setTimeout(function (){
+                burger.css('opacity', 1);
+            }, 200);
+        }
+
+        burger.on('click', function () {
+            panelMenu.css('opacity', 1);
+            burger.css('display', 'none');
+            burgerClose.css('display', 'block');
+            setTimeout(function (){
+                burgerClose.css('opacity', 1);
+            }, 200);
+
+        });
+        burgerClose.on('click', function () {
+            CloseBurger();
+        });
+
+        mobileBurger.on('click', function () {
+            mobilePanelMenu.css('top', 0);
+            mobileBurger.css('display', 'none');
+        });
+
+        mobileBurgerClose.on('click', function () {
+            mobilePanelMenu.css('top', '-110%');
+            mobileBurger.css('display', 'block');
+        })
+
+    })
+</script>
+
+</body>
+</html>
